@@ -113,11 +113,13 @@ java -jar marketlogic-assignment-survery-0.0.1.jar
 
 # Deployability and Pre-requisite 
 
-	As per pre-requisite jdk 11 is required to be installed in the machine. Application has been tested in both windows 10 and unix.	
+	As per pre-requisite jdk 11 is required to be installed in the machine. 
+	Application has been tested in both windows 10 and unix.	
 
 # Assumption
 
 # Area of Improvement
 	1.  Security implemented and can be augmented later. 
-	2.  Decouple the application and enable microservices architecture based on the two domain Question and Answer.
+	2.  Decouple the application and enable microservices architecture based on
+	    the two domain Question and Answer.
 
