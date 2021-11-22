@@ -1,0 +1,2553 @@
+{
+	"info": {
+		"_postman_id": "6157aecd-383b-44b9-a71c-72d18ac1f911",
+		"name": "MarketLogicSurveyApp",
+		"description": "Api Documentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "answers",
+			"item": [
+				{
+					"name": "findAnswers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/answers",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"answers"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/answers",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"answers"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/answers",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"answers"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/answers",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"answers"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Not Found",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/answers",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"answers"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "getAnswer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/answers/:answerId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"answers",
+								":answerId"
+							],
+							"variable": [
+								{
+									"key": "answerId",
+									"value": "72172564",
+									"description": "(Required) answerId"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/answers/:answerId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"answers",
+										":answerId"
+									],
+									"variable": [
+										{
+											"key": "answerId"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/answers/:answerId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"answers",
+										":answerId"
+									],
+									"variable": [
+										{
+											"key": "answerId"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/answers/:answerId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"answers",
+										":answerId"
+									],
+									"variable": [
+										{
+											"key": "answerId"
+										}
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Not Found",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/answers/:answerId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"answers",
+										":answerId"
+									],
+									"variable": [
+										{
+											"key": "answerId"
+										}
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "questions",
+			"item": [
+				{
+					"name": "{question Id}",
+					"item": [
+						{
+							"name": "answers",
+							"item": [
+								{
+									"name": "updateAnswer",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"content\": \"minim veniam\",\n    \"id\": 8862020\n}"
+										},
+										"url": {
+											"raw": "{{baseUrl}}/questions/:questionId/answers",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"questions",
+												":questionId",
+												"answers"
+											],
+											"variable": [
+												{
+													"key": "questionId",
+													"value": "72172564",
+													"description": "(Required) questionId"
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"content\": \"minim veniam\",\n    \"id\": 8862020\n}"
+												},
+												"url": {
+													"raw": "{{baseUrl}}/questions/:questionId/answers",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"questions",
+														":questionId",
+														"answers"
+													],
+													"variable": [
+														{
+															"key": "questionId"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "*/*"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										},
+										{
+											"name": "Created",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"content\": \"minim veniam\",\n    \"id\": 8862020\n}"
+												},
+												"url": {
+													"raw": "{{baseUrl}}/questions/:questionId/answers",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"questions",
+														":questionId",
+														"answers"
+													],
+													"variable": [
+														{
+															"key": "questionId"
+														}
+													]
+												}
+											},
+											"status": "Created",
+											"code": 201,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										},
+										{
+											"name": "Unauthorized",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"content\": \"minim veniam\",\n    \"id\": 8862020\n}"
+												},
+												"url": {
+													"raw": "{{baseUrl}}/questions/:questionId/answers",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"questions",
+														":questionId",
+														"answers"
+													],
+													"variable": [
+														{
+															"key": "questionId"
+														}
+													]
+												}
+											},
+											"status": "Unauthorized",
+											"code": 401,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										},
+										{
+											"name": "Forbidden",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"content\": \"minim veniam\",\n    \"id\": 8862020\n}"
+												},
+												"url": {
+													"raw": "{{baseUrl}}/questions/:questionId/answers",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"questions",
+														":questionId",
+														"answers"
+													],
+													"variable": [
+														{
+															"key": "questionId"
+														}
+													]
+												}
+											},
+											"status": "Forbidden",
+											"code": 403,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										},
+										{
+											"name": "Not Found",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"content\": \"minim veniam\",\n    \"id\": 8862020\n}"
+												},
+												"url": {
+													"raw": "{{baseUrl}}/questions/:questionId/answers",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"questions",
+														":questionId",
+														"answers"
+													],
+													"variable": [
+														{
+															"key": "questionId"
+														}
+													]
+												}
+											},
+											"status": "Not Found",
+											"code": 404,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "deleteAnswerByQuestionId",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/questions/:questionId/answers/:answerId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"questions",
+												":questionId",
+												"answers",
+												":answerId"
+											],
+											"variable": [
+												{
+													"key": "answerId",
+													"value": "72172564",
+													"description": "(Required) answerId"
+												},
+												{
+													"key": "questionId",
+													"value": "72172564",
+													"description": "(Required) questionId"
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "No Content",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/questions/:questionId/answers/:answerId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"questions",
+														":questionId",
+														"answers",
+														":answerId"
+													],
+													"variable": [
+														{
+															"key": "questionId"
+														},
+														{
+															"key": "answerId"
+														}
+													]
+												}
+											},
+											"status": "No Content",
+											"code": 204,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										},
+										{
+											"name": "Unauthorized",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/questions/:questionId/answers/:answerId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"questions",
+														":questionId",
+														"answers",
+														":answerId"
+													],
+													"variable": [
+														{
+															"key": "questionId"
+														},
+														{
+															"key": "answerId"
+														}
+													]
+												}
+											},
+											"status": "Unauthorized",
+											"code": 401,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										},
+										{
+											"name": "Forbidden",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/questions/:questionId/answers/:answerId",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"questions",
+														":questionId",
+														"answers",
+														":answerId"
+													],
+													"variable": [
+														{
+															"key": "questionId"
+														},
+														{
+															"key": "answerId"
+														}
+													]
+												}
+											},
+											"status": "Forbidden",
+											"code": 403,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "getQuestion",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions/:questionId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions",
+										":questionId"
+									],
+									"variable": [
+										{
+											"key": "questionId",
+											"value": "30",
+											"description": "(Required) questionId"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/questions/:questionId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"questions",
+												":questionId"
+											],
+											"variable": [
+												{
+													"key": "questionId"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/questions/:questionId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"questions",
+												":questionId"
+											],
+											"variable": [
+												{
+													"key": "questionId"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/questions/:questionId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"questions",
+												":questionId"
+											],
+											"variable": [
+												{
+													"key": "questionId"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/questions/:questionId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"questions",
+												":questionId"
+											],
+											"variable": [
+												{
+													"key": "questionId"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "deleteQuestion",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions/:questionId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions",
+										":questionId"
+									],
+									"variable": [
+										{
+											"key": "questionId",
+											"value": "72172564",
+											"description": "(Required) questionId"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "No Content",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/questions/:questionId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"questions",
+												":questionId"
+											],
+											"variable": [
+												{
+													"key": "questionId"
+												}
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/questions/:questionId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"questions",
+												":questionId"
+											],
+											"variable": [
+												{
+													"key": "questionId"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/questions/:questionId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"questions",
+												":questionId"
+											],
+											"variable": [
+												{
+													"key": "questionId"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "findQuestions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/questions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"questions"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Not Found",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Q1.addQuestion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"answers\": [\n        {\n            \"content\": \"Kolakta\"\n        },\n        {\n            \"content\": \"Delhi\"\n        },\n                {\n            \"content\": \"Mumbai\"\n        },\n                {\n            \"content\": \"Pune\"\n        }\n\n    ],\n    \"content\": \"What is India's Capital ? \"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/questions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"questions"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Q2.addQuestion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"answers\": [\n        {\n            \"content\": \"Mahamta Gandhi\"\n        },\n        {\n            \"content\": \"Ram Nath Kovind\"\n        },\n                {\n            \"content\": \"Narendra Modi\"\n        },\n                {\n            \"content\": \"Amit Shah\"\n        }\n\n    ],\n    \"content\": \"What is India's President ? \"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/questions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"questions"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Not Found",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Q3.addQuestion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"answers\": [\n        {\n            \"content\": \"Bangaluru\"\n        },\n        {\n            \"content\": \"Hydrabad\"\n        },\n                {\n            \"content\": \"Mumbai\"\n        },\n                {\n            \"content\": \"Delhi\"\n        }\n\n    ],\n    \"content\": \"What is India's Finance Capital ? \"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/questions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"questions"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Not Found",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Q4.addQuestion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"answers\": [\n        {\n            \"content\": \"peacock\"\n        },\n        {\n            \"content\": \"sparrow\"\n        },\n                {\n            \"content\": \"crow\"\n        },\n                {\n            \"content\": \"pegion\"\n        }\n\n    ],\n    \"content\": \"Which animal is the national bird of India? \"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/questions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"questions"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Not Found",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "updateQuestion",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"answers\": [\n        {\n            \"content\": \"deserunt amet nisi do proident\",\n            \"id\": 76077072\n        },\n        {\n            \"content\": \"magna eiusmod fugiat Ut\",\n            \"id\": 84667956\n        }\n    ],\n    \"content\": \"veniam sunt mollit aute eu\",\n    \"questionId\": -47012328\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/questions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"questions"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Created",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Not Found",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/questions",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"questions"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "survey",
+			"item": [
+				{
+					"name": "getSurvey",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/survey/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"survey",
+								""
+							],
+							"variable": [
+								{
+									"key": "surveyId",
+									"value": "72172564",
+									"description": "(Required) surveyId"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/survey/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"survey",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/survey/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"survey",
+										""
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/survey/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"survey",
+										""
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Not Found",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/survey/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"survey",
+										""
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "addSurvey",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"draft\": false,\n    \"participationCounter\": 0,\n    \"questions\": [\n        {\n            \"questionId\": 1\n        },\n        {\n            \"questionId\": 2\n        }\n    ],\n    \"released\": true,\n    \"surveyDescriptions\": \"Basic question about india\",\n    \"topic\": \"india basic gk\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/survey/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"survey",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"draft\": false,\n    \"participationCounter\": 6630067,\n    \"questions\": [\n        {\n            \"answers\": [\n                {\n                    \"content\": \"minim commodo\",\n                    \"id\": -41272971\n                },\n                {\n                    \"content\": \"laborum\",\n                    \"id\": 33512729\n                }\n            ],\n            \"content\": \"occaecat Excepteur\",\n            \"questionId\": 90765319\n        },\n        {\n            \"answers\": [\n                {\n                    \"content\": \"dolor laboris \",\n                    \"id\": 31031439\n                },\n                {\n                    \"content\": \"laborum velit dolor\",\n                    \"id\": 77086112\n                }\n            ],\n            \"content\": \"amet veniam irure\",\n            \"questionId\": -21634640\n        }\n    ],\n    \"released\": false,\n    \"surveyDescriptions\": \"ut culpa tempor\",\n    \"surveyId\": 66534669,\n    \"topic\": \"adipisicing\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/survey/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"survey",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"draft\": false,\n    \"participationCounter\": 6630067,\n    \"questions\": [\n        {\n            \"answers\": [\n                {\n                    \"content\": \"minim commodo\",\n                    \"id\": -41272971\n                },\n                {\n                    \"content\": \"laborum\",\n                    \"id\": 33512729\n                }\n            ],\n            \"content\": \"occaecat Excepteur\",\n            \"questionId\": 90765319\n        },\n        {\n            \"answers\": [\n                {\n                    \"content\": \"dolor laboris \",\n                    \"id\": 31031439\n                },\n                {\n                    \"content\": \"laborum velit dolor\",\n                    \"id\": 77086112\n                }\n            ],\n            \"content\": \"amet veniam irure\",\n            \"questionId\": -21634640\n        }\n    ],\n    \"released\": false,\n    \"surveyDescriptions\": \"ut culpa tempor\",\n    \"surveyId\": 66534669,\n    \"topic\": \"adipisicing\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/survey/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"survey",
+										""
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"draft\": false,\n    \"participationCounter\": 6630067,\n    \"questions\": [\n        {\n            \"answers\": [\n                {\n                    \"content\": \"minim commodo\",\n                    \"id\": -41272971\n                },\n                {\n                    \"content\": \"laborum\",\n                    \"id\": 33512729\n                }\n            ],\n            \"content\": \"occaecat Excepteur\",\n            \"questionId\": 90765319\n        },\n        {\n            \"answers\": [\n                {\n                    \"content\": \"dolor laboris \",\n                    \"id\": 31031439\n                },\n                {\n                    \"content\": \"laborum velit dolor\",\n                    \"id\": 77086112\n                }\n            ],\n            \"content\": \"amet veniam irure\",\n            \"questionId\": -21634640\n        }\n    ],\n    \"released\": false,\n    \"surveyDescriptions\": \"ut culpa tempor\",\n    \"surveyId\": 66534669,\n    \"topic\": \"adipisicing\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/survey/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"survey",
+										""
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Not Found",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"draft\": false,\n    \"participationCounter\": 6630067,\n    \"questions\": [\n        {\n            \"answers\": [\n                {\n                    \"content\": \"minim commodo\",\n                    \"id\": -41272971\n                },\n                {\n                    \"content\": \"laborum\",\n                    \"id\": 33512729\n                }\n            ],\n            \"content\": \"occaecat Excepteur\",\n            \"questionId\": 90765319\n        },\n        {\n            \"answers\": [\n                {\n                    \"content\": \"dolor laboris \",\n                    \"id\": 31031439\n                },\n                {\n                    \"content\": \"laborum velit dolor\",\n                    \"id\": 77086112\n                }\n            ],\n            \"content\": \"amet veniam irure\",\n            \"questionId\": -21634640\n        }\n    ],\n    \"released\": false,\n    \"surveyDescriptions\": \"ut culpa tempor\",\n    \"surveyId\": 66534669,\n    \"topic\": \"adipisicing\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/survey/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"survey",
+										""
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "test.India.survey",
+			"item": [
+				{
+					"name": "Q1.addQuestion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"answers\": [\n        {\n            \"content\": \"Kolakta\"\n        },\n        {\n            \"content\": \"Delhi\"\n        },\n                {\n            \"content\": \"Mumbai\"\n        },\n                {\n            \"content\": \"Pune\"\n        }\n\n    ],\n    \"content\": \"What is India's Capital ? \"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/questions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"questions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q2.addQuestion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"answers\": [\n        {\n            \"content\": \"Mahamta Gandhi\"\n        },\n        {\n            \"content\": \"Ram Nath Kovind\"\n        },\n                {\n            \"content\": \"Narendra Modi\"\n        },\n                {\n            \"content\": \"Amit Shah\"\n        }\n\n    ],\n    \"content\": \"Who is India's President ? \"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/questions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"questions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q3.addQuestion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"answers\": [\n        {\n            \"content\": \"Bangaluru\"\n        },\n        {\n            \"content\": \"Hydrabad\"\n        },\n                {\n            \"content\": \"Mumbai\"\n        },\n                {\n            \"content\": \"Delhi\"\n        }\n\n    ],\n    \"content\": \"What is India's Finance Capital ? \"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/questions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"questions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q4.addQuestion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"answers\": [\n        {\n            \"content\": \"peacock\"\n        },\n        {\n            \"content\": \"sparrow\"\n        },\n                {\n            \"content\": \"crow\"\n        },\n                {\n            \"content\": \"pegion\"\n        }\n\n    ],\n    \"content\": \"Which animal is the national bird of India? \"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/questions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"questions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q5.updateQuestion",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"answers\": [\n        {\n            \"content\": \"chennai\"\n        }\n    ],\n    \"questionId\": 1\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/questions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"questions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q6.findQuestions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/questions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"questions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q7.add.Survey",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"questions\": [\n        {\n            \"questionId\": 1\n        },\n        {\n            \"questionId\": 6\n        },\n        {\n            \"questionId\": 11\n        }\n    ],\n    \"surveyDescriptions\": \"Basic question about india\",\n    \"topic\": \"india basic gk\",\n    \"createdBy\": \"Nielson\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/survey/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"survey",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q8.add.Survey",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"questions\": [\n        {\n            \"questionId\": 1\n        },\n        {\n            \"questionId\": 6\n        },\n        {\n            \"questionId\": 16\n        }\n    ],\n    \"surveyDescriptions\": \"Question about india\",\n    \"topic\": \"india gk\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/survey/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"survey",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q9.a.submit.survey.response",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"duration\": 5,\n  \"feedback\": \"Best \",\n  \"questionAndAnswerRef\": {\n    \"1\": 3,\n    \"6\": 8,\n    \"16\": 19\n  },\n  \"surveyId\": 22,\n  \"userInfo\": \"Kaustuv\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/survey/submit/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"survey",
+								"submit",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q9.b.submit.survey.response",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"duration\": 5,\n  \"feedback\": \"Best \",\n  \"questionAndAnswerRef\": {\n    \"1\": 3,\n    \"6\": 8,\n    \"16\": 19\n  },\n  \"surveyId\": 22,\n  \"userInfo\": \"Sourav\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/survey/submit/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"survey",
+								"submit",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q9.c.submit.survey.response",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"duration\": 5,\n  \"feedback\": \"Best \",\n  \"questionAndAnswerRef\": {\n    \"1\": 3,\n    \"6\": 8,\n    \"16\": 19\n  },\n  \"surveyId\": 22,\n  \"userInfo\": \"Ramyani\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/survey/submit/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"survey",
+								"submit",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q9.d.submit.survey.response",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"duration\": 5,\n  \"feedback\": \"Best \",\n  \"questionAndAnswerRef\": {\n    \"1\": 3,\n    \"6\": 8\n  },\n  \"surveyId\": 22,\n  \"userInfo\": \"user5\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/survey/submit/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"survey",
+								"submit",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q9.f.submit.survey.response",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"duration\": 5,\n  \"feedback\": \"Best \",\n  \"questionAndAnswerRef\": {\n    \"1\": 2\n  },\n  \"surveyId\": 22,\n  \"userInfo\": \"user8\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/survey/submit/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"survey",
+								"submit",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q9.e.submit.survey.response",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"duration\": 5,\n  \"feedback\": \"Best \",\n  \"questionAndAnswerRef\": {\n    \"1\": 3,\n    \"6\": 8,\n    \"16\": 19\n  },\n  \"surveyId\": 26,\n  \"userInfo\": \"User4\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/survey/submit/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"survey",
+								"submit",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q9.g.submit.survey.response",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"duration\": 5,\n  \"feedback\": \"Best \",\n  \"questionAndAnswerRef\": {\n    \"1\": 3,\n    \"6\": 8,\n    \"16\": 19\n  },\n  \"surveyId\": 26,\n  \"userInfo\": \"kaustuv\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/survey/submit/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"survey",
+								"submit",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q10.a.survey.statistics",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/survey/:surveyId/statistics",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"survey",
+								":surveyId",
+								"statistics"
+							],
+							"variable": [
+								{
+									"key": "surveyId",
+									"value": "22"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Q11.survey.get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/survey/:surveyId/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"survey",
+								":surveyId",
+								""
+							],
+							"variable": [
+								{
+									"key": "surveyId",
+									"value": "22"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://market-logic-assignment-survey.herokuapp.com/"
+		},
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:3001",
+			"disabled": true
+		}
+	]
+}
