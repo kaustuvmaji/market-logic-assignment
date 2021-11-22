@@ -68,11 +68,14 @@ Database Schema will auto generated each time applications gets start.
 			- test
 		2. Junit
 		3. Apache HTTP components
+		4. JaCoCo 
 	- Runtime 
 		1. H2 Db
 	- Build 
 		1. Maven
-	- Deployment	
+	- Continous Integration 
+		1. Maven Git Action
+	- Continous Deployment	
 		1. Docker
 	- Cloud Platform
 		1. Heroku
